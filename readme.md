@@ -10,12 +10,12 @@ There will be 6 exercises (separated by folders) that will test your skills in w
 
 ## Exercises 📢
 
-- [Header](01-header\header.md)
-- [Footer](02-footer\footer.md)
-- [Banners](03-banners\banners.md)
-- [Product grid](04-product-grid\products-grid.md)
-- [Product Carousel](05-product-slider\products-slider.md)
-- [Product Page](06-product-page\product-page.md)
+- [Header](/01-header/header.md)
+- [Footer](/02-footer/footer.md)
+- [Banners](/03-banners/banners.md)
+- [Product grid](/04-product-grid/products-grid.md)
+- [Product Carousel](/05-product-slider/products-slider.md)
+- [Product Page](/06-product-page/product-page.md)
 
 
 ## Files provided 📦
