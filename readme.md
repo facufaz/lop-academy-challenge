@@ -10,12 +10,13 @@ There will be 6 exercises (separated by folders) that will test your skills in w
 
 ## Exercises 📢
 
-- [Header](https://xd.adobe.com/view/35645275-e047-4e71-9e64-1422c1404249-6037/)
--[Footer]()
-- [Product grid](https://xd.adobe.com/view/052d0065-f3a4-4846-9a4a-3e710a029c5b-507e/)
-- [Product Carousel](https://xd.adobe.com/view/d8ec4cb1-8d9f-4ed6-98b4-634b2b6171bc-8dbf/)
-- [Product Page]()
--[Banners]()
+- [Header](01-header\header.md)
+- [Footer](02-footer\footer.md)
+- [Banners](03-banners\banners.md)
+- [Product grid](04-product-grid\products-grid.md)
+- [Product Carousel](05-product-slider\products-slider.md)
+- [Product Page](06-product-page\product-page.md)
+
 
 ## Files provided 📦
 For each exercise we will provide you with several files.
@@ -40,7 +41,9 @@ Within each folder, there will be a brief where the description and objective of
 To perform the exercises, you must make a **clone** of this repository. You can use the text editor and tools that you think are most convenient.
 
 ## File delivery ✅
-When you finish the 6 proposed exercises, you must upload them to a repository in your github account and share the link with us. For this, we provide you with an [exclusive page](https://lop.global/) where, in addition to the link, you can leave us additional comments.
+When you finish the 6 proposed exercises, you must upload them to a repository in your github account and share the link with us.
+
+For this we ask you to send us an email to rrhh@lop.com.ar with the subject "Lop Challenge" and your name with the link to the repository.
 
 
 ## Author
