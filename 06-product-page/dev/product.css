@@ -120,13 +120,16 @@ position: unset;
     background-color: var(--azul-oscuro);
     color: var(--blanco);
     height: 37px;
-    width: 90%;
+    width: 100%;
+    padding: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     border-style: none;
 }
-
+.cart-link{
+    width: 100%;
+}
 .shipping-price{
     background-color: var(--azul);
     color: var(--blanco);
