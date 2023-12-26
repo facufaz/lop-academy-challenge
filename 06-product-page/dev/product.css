@@ -1,0 +1,230 @@
+:root {
+    --fuente-principal: font-family: 'Montserrat', sans-serif;
+    --gris-oscuro: #2b2d38;
+    --gris:#5e5e5e;
+    --gris-claro:#c7c7c7;
+    --blanco:#ffffff;
+    --azul-oscuro: #233655;
+    --azul: #4266a2;
+    --verde: #46962b;
+    --rojo: #d94848;
+ }
+ body{
+     margin: 0rem;
+     padding: 0;
+         letter-spacing: 1px;
+         font-family: 'Montserrat', sans-serif;
+         margin: 0;
+         display: block;
+         align-items: none;
+         justify-content: none;
+         height: 100%;
+ }
+ .product{
+    padding: 2rem;
+    padding-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 4fr 5fr;
+    grid-template-rows: 49vh 15vh ;
+ }
+ .showcase{
+    width: 70%;
+    height: 50%;
+ }
+.showcase-img{
+    border: 1px solid var(--gris-claro);
+    background-image: url(../materiales/img/freidora.jpg);
+    position: static;
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: center;
+    width: 90%;
+    max-height: max-content ;
+    margin: 10px;
+    aspect-ratio: auto 1/1;
+}
+.image {
+    width: 100%;
+    max-width: 600px;
+}
+.product-image {
+    background-image: url(../materiales/img/freidora.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: center;
+    border: 1px solid var(--gris-claro);
+    margin: 1rem;
+    aspect-ratio: auto 1/1;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    gap: 10px;
+}
+.count{
+    width: fit-content;
+    border: 1px solid var(--gris-oscuro);
+}
+.cart-counter{
+    width: 30px; 
+    height: 30px;
+    text-align: center;
+    margin: 0px;
+    border: none;
+    border-left: 1px solid var(--gris-oscuro);
+    border-right: 1px solid var(--gris-oscuro);
+}
+.form button {
+    width: 20px; 
+    height: 35px;
+    font-size: 16px;
+    cursor: pointer;
+    border:none ;
+}
+.cuotes{
+position: unset;
+}
+.name {
+position: unset;
+}  
+.price {
+    position: unset;
+}
+.shipping{
+    position:unset ;
+    width: max-content;
+}
+.footer, .icon{
+    margin: 0px;
+    padding: 15px;
+}
+.title{
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    font-size: 0.7rem;
+    color: var(--gris);
+}
+.cart {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+    width: 90%;
+    gap: 5px;
+    align-items: end;
+    gap: 20px;
+}
+.add-cart{
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+    height: 37px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+}
+
+.shipping-price{
+    background-color: var(--azul);
+    color: var(--blanco);
+    border-style: none;
+}
+.cp {
+    margin: 0.5rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.shipping-price{
+    height: 37px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: center;
+    border: 1px solid var(--gris-oscuro);
+}
+.cp-input{
+    width:50%;
+    padding: 5px;
+    border: 1px solid var(--gris-oscuro);
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.line{
+    background-color: var(--gris-oscuro);
+    height: 1px;
+    width: 100%;
+}
+.content{
+    margin: 0.5rem ;
+    display: flex;
+    gap: 1.5rem;
+}
+.content svg{
+    width: 20%;
+    height: 2rem;
+}
+.content h1{
+    width: 70%;
+    font-size: 15px;
+}
+.lorem h1{
+    color: var(--gris-oscuro);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.lorem{
+    padding: 5rem 2rem  6rem 2rem;
+    gap: 15px;
+}
+.dropdown{
+    background-color: var(--gris-claro);
+}
+.dropdown-large{
+    background-color: var(--gris-claro);
+    left: 0%;
+}
+.dropdown-large header{
+    background-color: var(--gris-claro);
+}
+
+@media(min-width:1390px){
+    .lorem{
+        padding-top: 2rem;
+    }
+}
+@media (max-width:700px){
+    .product{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 49vh 15vh ; ;
+    }
+    .showcase{
+        display: none;
+      }
+    .search {
+        width: 10rem;
+        color: var(--gris-oscuro);
+        width: 98%;
+        font-weight: 1200;
+    }
+    .showcase{
+      display: none;
+    }
+}
+@media (max-width: 500px){
+    .product{
+    display: flex;
+    flex-direction: column;
+    }
+    .lorem{
+        padding-top: 2rem;
+    }
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../01-header/dev/header.css">
+    <link rel="stylesheet" href="../../index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script defer src="./Header.js"></script>
+    <title>Header Loop</title>
+</head>
+<body>
+    <header >
+        <div class="header">
+            
+          <div class="side-navbar">
+              <a href="#" id="menu-toggle" onclick="toggleSidebar(this)" class="menu-sidebar">
+                <img  src="../materiales/svg/menu_FILL0_wght400_GRAD0_opsz24.svg" alt="sidebar-Menu">
+                </a>
+          
+                <div id="side-menu" class="hidden">
+                    <div class="menu">
+                        <header>
+                            <a href="#" ><img src="../materiales/svg/lop-multimedia-logo-lop.svg"/></a>
+                            <a href="#" onclick="toggleSidebar(this)" id="x" class="x"><img src="../materiales/svg/x.svg"/></a>
+                            
+                        </header>
+                        
+                        <div class="salto-de-linea"></div>
+                        
+                        <div class="contenido">
+                            <h2>Lorem Ipsum</h2>
+                            <p><a href="https://www.lop.global" target="_blank">Lorem Ipsum</a></p>
+                            <p><a href="https://www.lop.global" target="_blank">Lorem Ipsum</a></p>
+                            <p><a href="https://www.lop.global" target="_blank">Lorem Ipsum</a></p>
+                        </div>
+                        
+                        <div class="salto-de-linea"></div>
+                        
+                        <div class="contenido">
+                            <h2>Lorem Ipsum</h2>
+                            <p><a href="https://www.lop.global" target="_blank">Lorem Ipsum</a></p>
+                            <p><a href="https://www.lop.global" target="_blank">Lorem Ipsum</a></p>
+                            <p><a href="https://www.lop.global" target="_blank">Lorem Ipsum</a></p>
+                        </div>
+                    </div>
+                    <div class="background-shade"></div>
+                    
+                </div>
+            </div> 
+
+            <a href="#" ><img src="../materiales/svg/lop-multimedia-logo-lop.svg"/></a>
+            
+            <div class="searchBar-desktop">
+                <form >
+                    <div class="search">
+                        <input class="search-input" type="search" placeholder="¿Qué está buscando?">
+                        <span class="search-icon material-symbols-outlined">Search</span>
+                    </div>
+                </form>
+            </div>
+    
+    
+            <div class="navegacion" >
+                <a href="#" class="navegacion-usuario">
+                    <img src="../materiales/svg/lop-academy-icon-user.svg" alt="Mi cuenta"/>
+                    <span>Mi cuenta</span>
+                </a>
+                
+               
+                <a href="#">
+                    <img src="../materiales/svg/lop-academy-icon-cart.svg" alt="carrito"/>
+                </a>
+            </div>
+        </div>
+            
+            <div class="searchBar-mobile">
+                <form >
+                    <div class="search">
+                        <input class="search-input" type="search" placeholder="¿Qué está buscando?">
+                        <span class="search-icon material-symbols-outlined">Search</span>
+                    </div>
+                </form>
+            </div>
+
+    </header>
+        
+    <div class="salto"></div>
+    <section class="dropdown-menu">
+        <ul class="dp-list">
+            <li>Lorem ipsum &#x25BE
+                <div class="mega-dropdown">
+                    <ul class="dropdown-large">
+                        <div class="row">
+                            <header class="row-header">Text Lorem Ipsum</header>
+                            <ul>
+                                    <li ><a href="https://www.lop.global" target="_blank">Descripcion Lorem Ipsum</a></li>
+                                    <li ><a href="https://www.lop.global" target="_blank">Descripcion Lorem Ipsum</a></li>
+                                    <li ><a href="https://www.lop.global" target="_blank">Descripcion Lorem Ipsum</a></li>
+                                    <li ><a href="https://www.lop.global" target="_blank">Descripcion Lorem Ipsum</a></li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <header class="row-header">Text Lorem Ipsum</header>
+                            <ul>
+                                    <li ><a href="https://www.lop.global" target="_blank">Descripcion Lorem Ipsum</a></li>
+                                    <li ><a href="https://www.lop.global" target="_blank">Descripcion Lorem Ipsum</a></li>
+                                    <li ><a href="https://www.lop.global" target="_blank">Descripcion Lorem Ipsum</a></li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <header class="row-header">Text Lorem Ipsum</header>
+                            <ul>
+                                    <li ><a href="https://www.lop.global" target="_blank">Descripcion Lorem Ipsum</a></li>
+                                    <li ><a href="https://www.lop.global" target="_blank">Descripcion Lorem Ipsum</a></li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <header class="row-header">Text Lorem Ipsum</header>
+                            <ul>
+                                    <li ><a href="https://www.lop.global" target="_blank">Descripcion Lorem Ipsum</a></li>
+                                    <li ><a href="https://www.lop.global" target="_blank">Descripcion Lorem Ipsum</a></li>
+                                    <li ><a href="https://www.lop.global" target="_blank">Descripcion Lorem Ipsum</a></li>
+                                    <li ><a href="https://www.lop.global" target="_blank">Descripcion Lorem Ipsum</a></li>
+                            </ul>
+                        </div>
+
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <ul class="dp-list">
+            <li>Lorem ipsum &#x25BE
+                <ul class="dropdown">
+                    <li ><a href="https://www.lop.global" target="_blank">Lorem Ipsum</a></li>
+                    <li ><a href="https://www.lop.global" target="_blank">Lorem Ipsum</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="dp-list">
+            <li>Lorem ipsum &#x25BE
+                <ul class="dropdown">
+                    <li ><a href="https://www.lop.global" target="_blank">Lorem Ipsum</a></li>
+                    <li ><a href="https://www.lop.global" target="_blank">Lorem Ipsum</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="dp-list">
+            <li>Lorem ipsum &#x25BE
+                <ul class="dropdown">
+                    <li ><a href="https://www.lop.global" target="_blank">Producto 1</a></li>
+                    <li ><a href="https://www.lop.global" target="_blank">Producto 2</a></li>
+                    <li ><a href="https://www.lop.global" target="_blank">Producto 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    
+    </section>
+</body>
+</html>

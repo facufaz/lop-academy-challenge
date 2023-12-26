@@ -1,0 +1,139 @@
+:root {
+    --fuente-principal: font-family: 'Montserrat', sans-serif;
+    --gris-oscuro: #2b2d38;
+    --gris:#5e5e5e;
+    --gris-claro:#c7c7c7;
+    --blanco:#ffffff;
+    --azul-oscuro: #233655;
+    --azul: #4266a2;
+    --verde: #46962b;
+    --rojo: #d94848;
+ }
+a {
+    color: white;
+    text-decoration: none;
+}
+ul, ol, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header{
+    padding: 1rem;
+}
+.nav {
+    --img1: scale(1);
+    --img2: scale(0);
+}
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    height: auto;
+    width: 100%;
+    background-color: black;
+    box-sizing: border-box;
+    display: grid;
+    align-content: center;
+    padding: 1.5rem;
+    overflow-y: auto;
+}
+.footer-link {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    position: relative ;
+}
+.footer-link span{
+    font-size: 1.3rem;
+}
+.footer-dropdown-list:has( :checked ){
+    --rows:1fr;
+}
+.footer-dropdown-list{
+    padding-top: 8px;
+}
+.fixed{
+    margin-top: 0;
+}
+.plus {
+    display: flex;
+    position: absolute;
+    transform: var(--img1);
+    right: 10%;
+    top: 27%;
+}
+.minus {
+    transform: var(--img2);
+    display: flex;
+    position: absolute;
+    right: 10%;
+    top: 27%;
+}
+.dropdown-check{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+.dropdown-content{
+    display: grid;
+    grid-template-rows: var(--rows, 0fr);
+    transition:.3s grid-template-rows ;
+}
+.dropdown-sub{
+    overflow: hidden;
+}
+.dropdown-li{
+    width: 85%;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+.dropdown-anchor{
+    color: var(--gris-claro);
+    display: block;
+    text-align: start;
+}
+@media (min-width:1070px){
+    .dropdown-content{
+        display: grid;
+        grid-template-rows: 1fr
+    }
+    .minus{
+        display: none;
+    }
+    .plus{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .footer-dropdown{
+        display: flex;
+        align-items: flex-start;
+        flex-direction:  row;
+        gap: 6rem;
+    }
+    .footer-dropdown-list{
+        position: relative;
+        padding-top:0 ;
+        top: -40PX;
+        font-size: 1rem;
+    
+    }
+    .icon{
+        position: relative;
+        display: flex;
+        width: 3rem;
+        margin-right: 60px;
+    }
+    .dropdown-li{
+        padding-left: 0;
+        font-weight: 200;
+        font-size: small;
+    }
+    .footer-link span{
+        font-weight: 800;
+    }
+}

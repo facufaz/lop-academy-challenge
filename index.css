@@ -1,0 +1,34 @@
+:root {
+    --fuente-principal: font-family: 'Montserrat', sans-serif;
+    --gris-oscuro: #2b2d38;
+    --gris:#5e5e5e;
+    --gris-claro:#c7c7c7;
+    --blanco:#ffffff;
+    --azul-oscuro: #233655;
+    --azul: #4266a2;
+    --verde: #46962b;
+    --rojo: #d94848;
+  }
+  *{
+    padding: 0 ;
+    margin: 0;
+    font-family: Montserrat;
+  }
+
+body{
+    font-family: Montserrat;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff ;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+header{
+  background-color: #000000;
+}
